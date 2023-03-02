@@ -483,17 +483,36 @@ context {
   gap: 10px;
 }
 
-@media (max-width: 700px) {
-  .project-text {
-    max-width: fit-content;
-  }
+.github-profile {
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  visibility: hidden;
+  position: absolute;
 }
+
 .git-link {
-  background-color: #171515;
+  /* background-color: ; */
   text-decoration: none;
   cursor: pointer;
   color: aliceblue;
 }
+
+.git-link:hover .github-profile {
+  visibility: visible;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 700px) {
+  .project-text {
+    max-width: fit-content;
+  }
+  .github-profile {
+    display: none;
+  }
+}
+
 .blog-slider {
   width: 95%;
   position: relative;
