@@ -492,7 +492,6 @@ context {
 }
 
 .git-link {
-  /* background-color: ; */
   text-decoration: none;
   cursor: pointer;
   color: aliceblue;
