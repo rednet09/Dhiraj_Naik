@@ -506,6 +506,11 @@ context {
 @media (max-width: 700px) {
   .project-text {
     max-width: fit-content;
+   
+    
+  }
+  #Projects{
+    height: 130vh;
   }
   .github-profile {
     display: none;
@@ -527,13 +532,14 @@ context {
 @media screen and (max-width: 992px) {
   .blog-slider {
     max-width: 680px;
-    height: 400px;
+    height: 100vh;
+  
   }
 }
 @media screen and (max-width: 768px) {
   .blog-slider {
     min-height: 500px;
-    height: auto;
+    height: 100vh;
     margin: 180px auto;
   }
 }
@@ -699,6 +705,7 @@ context {
   justify-content: center;
   text-align: center;
   letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 576px) {
   .blog-slider__button {
@@ -819,6 +826,12 @@ form textarea {
   font-size: 16px;
 }
 
+@media (max-width: 768px) {
+  #hire-me{
+    /* margin-top: 100px; */
+  }
+  
+}
 /* hire me section end */
 
 /* footer section starts */
