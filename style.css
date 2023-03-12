@@ -864,12 +864,15 @@ form textarea {
   font-size: 1rem;
 }
 
-.social-icons:hover {
-  font-size: 2rem;
+.bi:hover {
+  font-size: 1.5rem;
 }
 
 .footer-text .bi {
   color: red;
+}
+.footer-text {
+  padding-top: 20px;
 }
 
 /* footer section ends */
