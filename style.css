@@ -532,14 +532,14 @@ context {
 @media screen and (max-width: 992px) {
   .blog-slider {
     max-width: 680px;
-    height: 100vh;
+    height: fit-content;
   
   }
 }
 @media screen and (max-width: 768px) {
   .blog-slider {
     min-height: 500px;
-    height: 100vh;
+    height: fit-content;
     margin: 180px auto;
   }
 }
