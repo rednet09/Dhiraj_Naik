@@ -506,10 +506,8 @@ context {
 @media (max-width: 700px) {
   .project-text {
     max-width: fit-content;
-   
-    
   }
-  #Projects{
+  #Projects {
     height: 130vh;
   }
   .github-profile {
@@ -533,7 +531,6 @@ context {
   .blog-slider {
     max-width: 680px;
     height: fit-content;
-  
   }
 }
 @media screen and (max-width: 768px) {
@@ -683,13 +680,14 @@ context {
   font-weight: 500;
 }
 .blog-slider__title {
+  font-family: unbounded;
   font-size: 24px;
   font-weight: 700;
-  color: #0d0925;
+  color: #b0a8b9;
   margin-bottom: 20px;
 }
 .blog-slider__text {
-  color: #4e4a67;
+  color: #b0a8b9;
   margin-bottom: 30px;
   line-height: 1.5em;
 }
@@ -800,7 +798,7 @@ context {
 #hire-me {
   width: 100%;
   height: 100vh;
-  background: #00acc1;
+  /* background: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -827,27 +825,33 @@ form textarea {
 }
 
 @media (max-width: 768px) {
-  #hire-me{
+  #hire-me {
     /* margin-top: 100px; */
   }
-  
 }
 /* hire me section end */
 
 /* footer section starts */
 
 #footer {
+  background-image: linear-gradient(
+    200deg,
+    rgb(0, 172, 193) 0%,
+    rgb(84, 58, 183) 74%
+  );
   width: 100%;
-  height: 20vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  background-color: aliceblue;
+  color: aliceblue;
+  /* background-color: aliceblue; */
 }
 
 #footer h3 {
+  color: aliceblue;
   padding: 40px 0 10px;
 }
 
