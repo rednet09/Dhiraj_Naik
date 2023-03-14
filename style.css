@@ -99,6 +99,19 @@ nav ul li a:hover {
 
 /* about */
 
+#description {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+  color: aliceblue;
+  font-family: Montserrat;
+}
+.description-content {
+  max-width: 50%;
+  text-align: left;
+}
+
 #timeline {
   display: flex;
   background-color: linear-gradient(60deg, #543ab7, #00acc1);
