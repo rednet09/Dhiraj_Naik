@@ -12,7 +12,6 @@
 .hero {
 
   width: 100%;
-  background: var(--primary);
   font-family: Montserrat;
   position: relative;
 }
