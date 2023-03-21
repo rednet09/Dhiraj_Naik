@@ -8,16 +8,9 @@
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-/* :root {
-  --primary-theme: #f0f38d;
-  --secondary: #212121;
-}
-.dark-theme {
-  --primary: #000106;
-  --secondary: #fff;
-} */
+
 .hero {
-  /* height: 100vh; */
+
   width: 100%;
   background: var(--primary);
   font-family: Montserrat;
