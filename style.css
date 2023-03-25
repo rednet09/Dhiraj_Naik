@@ -869,6 +869,7 @@ form textarea {
   flex-direction: column;
   gap: 10px;
   color: aliceblue;
+
   /* background-color: aliceblue; */
 }
 
@@ -895,6 +896,20 @@ form textarea {
 }
 .footer-text {
   padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .social-icons .bi{
+    font-size: 2rem;
+  }
+  .footer-text .bi{
+    font-size: 1rem;
+  }
+  .footer-text p{
+    max-width: 100%;
+  }
+ 
+  
 }
 
 /* footer section ends */
