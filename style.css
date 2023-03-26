@@ -997,6 +997,7 @@ form textarea {
   
   .footer-text .bi{
     font-size: 1rem;
+    display: inline;
   }
   .footer-text {
    
