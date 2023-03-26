@@ -900,7 +900,7 @@ form textarea {
 
 @media (max-width: 768px) {
   .social-icons .bi{
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .footer-text .bi{
     font-size: 1rem;
@@ -908,7 +908,9 @@ form textarea {
   .footer-text p{
     max-width: 100%;
   }
- 
+  #footer{
+    margin-bottom: 0;
+  }
   
 }
 
