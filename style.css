@@ -853,70 +853,6 @@ form textarea {
 }
 /* hire me section end */
 
-/* footer section starts */
-
-#footer {
-  background-image: linear-gradient(
-    200deg,
-    rgb(0, 172, 193) 0%,
-    rgb(84, 58, 183) 74%
-  );
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-  color: aliceblue;
-
-  /* background-color: aliceblue; */
-}
-
-#footer h3 {
-  color: aliceblue;
-  padding: 40px 0 10px;
-}
-
-.social-icons {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  font-size: 1rem;
-}
-
-.bi:hover {
-  font-size: 1.5rem;
-}
-
-.footer-text .bi {
-  color: red;
-}
-.footer-text {
-  padding-top: 20px;
-}
-
-@media (max-width: 768px) {
-  .social-icons .bi{
-    font-size: 1rem;
-  }
-  .footer-text .bi{
-    font-size: 1rem;
-  }
-  .footer-text p{
-    max-width: 100%;
-  }
-  #footer{
-    margin-bottom: 0;
-  }
-  
-}
-
-/* footer section ends */
-
-/*Shrinking for mobile*/
 @media (max-width: 768px) {
   nav ul li {
     display: block;
@@ -1009,3 +945,72 @@ form textarea {
     position: relative;
   }
 }
+
+
+/* footer section starts */
+
+#footer {
+  background-image: linear-gradient(
+    200deg,
+    rgb(0, 172, 193) 0%,
+    rgb(84, 58, 183) 74%
+  );
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: aliceblue;
+
+  /* background-color: aliceblue; */
+}
+
+#footer h3 {
+  color: aliceblue;
+  padding: 40px 0 10px;
+}
+
+.social-icons {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 1rem !important; 
+}
+
+.bi:hover {
+  font-size: 1.5rem;
+}
+
+.footer-text .bi {
+  color: red;
+}
+.footer-text {
+  padding-top: 20px;
+
+}
+
+@media (max-width: 768px) {
+  
+  .footer-text .bi{
+    font-size: 1rem;
+  }
+  .footer-text {
+   
+    flex-basis: content;
+  }
+  .social-icons .bi{
+    font-size: 1rem;
+  }
+  #footer{
+    margin-bottom: 0;
+  }
+  
+}
+
+/* footer section ends */
+
+/*Shrinking for mobile*/
